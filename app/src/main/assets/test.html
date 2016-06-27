@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>Document</title>
+</head>
+<body>
+<a>js中调用本地方法</a>
+<script>
+      
+    function funFromjs(a){
+        document.getElementById("helloweb").innerHTML=a;
+    }  
+    var aTag = document.getElementsByTagName('a')[0];  
+    aTag.addEventListener('click', function(){  
+      
+
+        myObj11.fun1FromAndroid("调用android本地方法fun1FromAndroid(String name)！！");
+        return false;
+    }, false);  
+
+
+
+
+
+</script>
+<p></p>
+
+<div id="helloweb">
+
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="base_url">http://192.168.0.216:8080/offtake/</string>
+    <!-- LoginService -->
+    <string name="user_login_url">pg/login.do</string>
+</resources>

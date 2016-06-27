@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_url">com.example.test.myapplication.activity.NewHomeActivity</string>
+    <string name="repository_url">com.example.test.myapplication.activity.ReposiToryActicity</string>
+    <string name="work_url">com.example.test.myapplication.activity.WorkActivity</string>
+    <string name="my_url">com.example.test.myapplication.activity.WebViewActivity</string>
+</resources>
